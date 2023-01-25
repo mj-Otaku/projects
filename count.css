@@ -1,0 +1,54 @@
+ body {
+    height: 100vh;
+  }
+  
+  body {
+    font-family: sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(7, 29, 49);
+  }
+  #Reset:hover
+{
+  background-color:rgb(133, 71, 177);
+  cursor: pointer;
+ 
+}
+
+#add:hover
+{
+  background-color:rgb(133, 71, 177);
+  cursor: pointer;
+ 
+}
+#subtract:hover
+{
+  background-color:rgb(133, 71, 177);
+  cursor: pointer;
+ 
+}
+  .counter_conatiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    margin-top: 1rem;
+  }
+  span {
+    font-size: 3rem;
+    background-color: #7c7f9d;
+    padding: 2px 12px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 4px;
+    color: rgb(210, 249, 251);
+  }
+  button {
+    font-size: 3rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0px;
+  }
